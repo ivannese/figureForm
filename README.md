@@ -1,2 +1,2 @@
 # figureCards
-##Form &amp; Figures, the visual structure
+##Cards Info &amp; Figures, the visual structure
