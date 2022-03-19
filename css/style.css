@@ -1,0 +1,106 @@
+:root{
+    /* --background-image: #71C6FF; */
+    /* --background-image: #ebd19f; */
+    --background-image: #b9987a;
+    --color-title: #798AA1;
+    --color-subtititle: #CED9E7;
+    --color-detailTitle: #BDC5D1;
+    --color-detailProducts: #89CCFF;
+    --color-descriptionProduct: #DFE5EB;
+    --color-button: #DCE4EC;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+}
+button{
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    width: 100%;
+}
+/* -------------------------------------------------
+    ROW & COL
+---------------------------------------------------- */
+.row-container, .col-container{
+    width: 100%;
+}
+.row-container{
+    display: flex;
+    flex-direction: column;
+}
+.col-container{
+    width: 100;
+}
+/* -------------------------------------------------
+    PRODUCT
+---------------------------------------------------- */
+.colProduct{
+    margin: 3.5rem 0;
+    /* padding: 2.5rem 0; */
+}
+/* -------------------------------------------------
+    
+---------------------------------------------------- */
+/* FIGURE - IMG */
+.product-img{
+    /* background-color: var(--background-image); */
+    /* border-radius: 10% 10% 10% 100% / 10% 10% 10% 10%; */
+    margin: 0 auto;
+    width: 85%;
+}
+.img-container{
+    border-radius: 100% 500% 50% 800% / 100% 100% 100% 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0rem .3rem .8rem;
+}
+/* DESCRIPTION PRODUCT */
+/* .pruct-description{} */
+/* TITLE */
+.title-product{
+    font-size: 2.5rem;
+    padding-top: .5rem;
+}
+/* SUB-TITLE */
+.subtitle-product{
+    font-size: 1.3rem;
+    padding: .3rem 0 1rem 1rem;
+}
+/* DETAILS PRODUCT */
+.details-titles{
+    display: block;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.details-products{
+    color: var(--color-detailProducts);
+}
+/* TEXT DESCRIPTION */
+.description-products{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    line-height: 1.6;
+    letter-spacing: .02rem;
+}
+/* BUTTON */
+.btn-info{
+    background-color: var(--color-button);
+    padding: .5rem;
+    text-transform: uppercase;
+    width: 10rem;
+}
